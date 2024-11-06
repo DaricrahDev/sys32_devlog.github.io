@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SystemCrashdown - DevBlog</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            user-select: none;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: sans-serif;
+            background: #181818;
+        }
+
+        header {
+            padding: 30px;
+            background-color: #181818;
+            box-shadow: rgb(34, 34, 34) 0 1px 5px;
+        }
+
+        header ul li {
+            display: block;
+        }
+
+        header ul li a {
+            float: right;
+            overflow-x: hidden;
+            color: white;
+            text-decoration: none;
+            margin-right: 7px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            user-select: none;
+        }
+
+        header ul li a:hover {
+            color: #F2AF20;
+        }
+
+        header .logo-container p {
+            font-weight: bold;
+            color: white;
+            user-select: none;
+        }
+
+        main {
+            padding: 30px;
+            color: white;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        section ul li {
+            list-style-type: none;
+            padding: 10px;
+            margin-top: 10px;
+            margin-left: 5px;
+            position: relative;
+            top: 20px;
+        }
+
+        section a {
+            color: gray;
+            transition: all 0.3s ease;
+            font-size: 17px;
+        }
+
+        section a:hover {
+            color: #F2AF20;
+        }
+    </style>
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+        <div class="logo-container"><p>SystemCrashdown DevBlog</p></div>
+    </header>
+
+    <main>
+        <section>
+            <h1 id="title1" style="color: #F2AF20;">Select a post.</h1>
+            <ul>
+                <li><a href="articles/articleOne.html">Post #1 - 03/10/2024</a></li>
+            </ul>
+            <ul>
+                <li><a href="articles/articleTwo.html">Post #2 - 12/10/2024</a></li>
+            </ul>
+            <ul>
+                <li><a href="articles/articleThree.html">Post #3 - 06/11/2024</a></li>
+            </ul>
+        </section>
+    
+</body>
+</html>
