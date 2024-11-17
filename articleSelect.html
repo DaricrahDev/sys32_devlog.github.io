@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="..//sys32.png" type="image/x-icon">
     <title>SystemCrashdown - DevBlog</title>
 </head>
 <body>
@@ -81,6 +82,21 @@
         section a:hover {
             color: #F2AF20;
         }
+
+        .article {
+            padding: 20px;
+            background-color: #F2AF20;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            color: #181818;
+            border-radius: 7px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .article:hover {
+            transform: scale(1.009);
+        }
     </style>
     <header>
         <ul>
@@ -92,15 +108,22 @@
     <main>
         <section>
             <h1 id="title1" style="color: #F2AF20;">Select a post.</h1>
-            <ul>
-                <li><a href="articles/articleOne.html">Post #1 - 03/10/2024</a></li>
-            </ul>
-            <ul>
-                <li><a href="articles/articleTwo.html">Post #2 - 12/10/2024</a></li>
-            </ul>
-            <ul>
-                <li><a href="articles/articleThree.html">Post #3 - 06/11/2024</a></li>
-            </ul>
+
+            <div class="article" onclick="window.location.href='articles/articleOne.html'">
+                <h3>Post #1 - 03/10/2024</h3>
+                <p>Click this to read.</p>
+            </div>
+
+            <div class="article" onclick="window.location.href='articles/articleTwo.html'">
+                <h3>Post #2 - 12/10/2024</h3>
+                <p>Click this to read.</p>
+            </div>
+
+            <div class="article" onclick="window.location.href='articles/articleThree.html'">
+                <h3>Post #3 - 06/11/2024</h3>
+                <p>Click this to read.</p>
+            </div>
+
         </section>
     
 </body>
